@@ -1,0 +1,26 @@
+part_id,component_name,primary_supplier,origin_city,transit_method,backup_supplier,backup_location,alternative_cost_delta
+COMP-9021,Next-Gen AI Microchip,Taiwan Semiconductor Co,"Shanghai, China",Ocean Freight,Austin Tech Foundry,"Texas, USA",+$15000 flat premium
+BATT-404,Lithium-Ion Core Cell Matrix,Seoul Energy Corp,"Seoul, South Korea",Ocean Freight,Nevada Battery Depot,"Nevada, USA",+5% unit price premium
+CHAS-771,Anodized Aluminum Chassis,Pacific Moldings Ltd,"Kuala Lumpur, Malaysia",Ocean Freight,MexiCast Components,"Monterrey, Mexico",+$4500 customs fee
+SENS-112,Optical Proximity Sensor,Tokyo Optoelectronics,"Tokyo, Japan",Ocean Freight,EuroSensors GmbH,"Stuttgart, Germany",+$8500 air freight shift
+CAP-334,Ceramic Capacitor Array,Murata Electronics,"Busan, South Korea",Ocean Freight,Capacitor Corp,"Ohio, USA",+12% material surcharge
+DISP-556,OLED Touch Display Panel,Samsung Display,"Seoul, South Korea",Ocean Freight,Sharp Tech Industrial,"Osaka, Japan",+$9000 express shipping
+PROC-883,Quad-Core Control Processor,Intel Subsidiary,"Shanghai, China",Ocean Freight,Silicon Valley Labs,"California, USA",+$22000 tooling charge
+DIOD-221,High-Frequency Switching Diode,Taiwan Active Parts,"Shanghai, China",Ocean Freight,UK Micro Components,"Bristol, UK",+3% unit price premium
+WIRE-445,Braided Copper Wiring Harness,Sumitomo Wiring,"Kuala Lumpur, Malaysia",Ocean Freight,MexiWire Corp,"Juarez, Mexico",+$2500 freight adjustments
+MEM-667,64GB LPDDR5 Memory Module,SK Hynix,"Seoul, South Korea",Ocean Freight,Micron Technologies,"Idaho, USA",+15% temporary premium
+VALV-990,Pneumatic Control Valve,SMC Pneumatics,"Tokyo, Japan",Ocean Freight,Fluidic Systems,"Illinois, USA",+$6000 domestic hotshot
+RELA-118,Heavy-Duty Power Relay,Omron Electronics,"Tokyo, Japan",Ocean Freight,Relay Tech LLC,"Indiana, USA",+$3500 rush order fee
+PUMP-339,Brushless Cooling Liquid Pump,Nidec Corporation,"Shanghai, China",Ocean Freight,PumpMaster Systems,"Michigan, USA",+$11000 air cargo delta
+BRK-882,Hydraulic Brake Caliper Assembly,Brembo East Asia,"Shanghai, China",Ocean Freight,Continental Braking,"Frankfurt, Germany",+8% component cost increase
+GEAR-774,Precision Planetary Gearbox,Shimano Industrial,"Tokyo, Japan",Ocean Freight,Boston Gear Works,"Massachusetts, USA",+$14000 custom fabrication
+TRANS-551,Step-Down Power Transformer,Tamura Corp,"Kuala Lumpur, Malaysia",Ocean Freight,Signal Transformer,"New York, USA",+$5500 expedited shipping
+INDUCT-662,Shielded Power Inductor,TDK Corporation,"Tokyo, Japan",Ocean Freight,Inductor Supply Co,"California, USA",+4% unit price premium
+CONN-993,Gold-Plated Interface Connector,Amphenol Asia,"Shanghai, China",Ocean Freight,Molex Incorporated,"Illinois, USA",+$3000 air expediting fee
+FUSE-114,Fast-Acting Ceramic Fuse,Littelfuse Tech,"Busan, South Korea",Ocean Freight,Bussmann Industries,"Missouri, USA",+2% unit price premium
+OSC-558,Quartz Crystal Oscillator,Kyocera Corp,"Tokyo, Japan",Ocean Freight,NDK America,"Illinois, USA",+$4000 tooling fee
+LED-779,High-Lumen Status LED Array,Nichia Chemicals,"Tokyo, Japan",Ocean Freight,Cree LED Supply,"North Carolina, USA",+6% unit price premium
+RES-229,Thick Film Resistor Network,Yageo Corp,"Shanghai, China",Ocean Freight,Vishay Dale Corp,"Nebraska, USA",+$1500 shipping handling
+BOARD-441,Multi-Layer Rigid PCB Substrate,Unimicron Tech,"Shanghai, China",Ocean Freight,Sanmina Corporation,"California, USA",+$18000 setup cost adjustment
+FAN-996,Dual-Ball Bearing Cooling Fan,Delta Electronics,"Shanghai, China",Ocean Freight,Corsair Logistics,"California, USA",+$5000 fast-track shipping
+ENC-331,Stamping Steel Outer Enclosure,Foxconn Mechanical,"Shanghai, China",Ocean Freight,Stamping Technologies,"Ohio, USA",+10% factory premium
