@@ -1,15 +1,19 @@
-# Commercial Auto Telematics Churn & Price Sensitivity Calculator
+# Agentic AI Supply and Risk Disruption Planner
 
 ## Project Overview
-This project provides an automated, end-to-end data pipeline designed to analyze commercial auto insurance policyholder retention and evaluate price elasticity. The core engine processes operational data to identify the exact threshold where premium price hikes trigger client churn, helping underwriters optimize pricing structures without sacrificing customer loyalty.
+This project employs a multi-agent AI framework to support supply chain activities. Three agents, the impact analyst, and the planner are created using Google Gemini model 3.5 Lite. The agent's operate as follows:
+- **The monitor** - analyzes various news articles and summarizes the news
+- **The impact analyst** - cross-references the origin city of a supplier with the news bulletin
+- **The planner agent** - Drafts a procurement email to backup suppliers
+
+The resulting output is a dropdown list of affected ports, impact summary, and an auto-generated procument email to backup supplier for affected product(s).
 
 ## Interactive Analytics Dashboard
-![Commercial Auto Analytics Dashboard Panel](dashboard.png) 
+![Multi_Agent_Dashboard](ma_dashboard.png) 
 
 ## Features & Tech Stack
-* **Automated Staging Layer (Excel VBA)**: Utilizes memory-efficient dynamic arrays to scrub and process transaction records, completely isolating successful renewals without corrupting original source tables.
-* **Actuarial Modeling (VBA Logic)**: Dynamically computes the portfolio's **Optimal Average Premium Rate Increase Ceiling (5.48%)**, mapping out the boundary lines of customer sensitivity.
-* **Business Intelligence Frontend (Power BI)**: Delivers interactive dashboards capturing distinct policyholder metrics, including executive KPI cards, 100% stacked telematics performance metrics, and a clean scatter plot displaying pricing hazard zones.
+* **Agentic AI** - Google Gemini Model 3.5-lite
+* **StreamLit** - Used to create interactive Dashboard
 
 ## Business Key Takeaway
-The data engine proves a strict pricing boundary across personal and commercial automobile profiles. Rate adjustments kept below the **5.48% optimal premium threshold** yield excellent client retention. However, adjustments exceeding this ceiling heavily accelerate risk exposure and customer churn, particularly for clients not participating in the telematics initiative.
+This multi-agent framework simplifies the process of analyzing which suppliers are affected by external events and shortens the response time by automatically tracking affected products.
