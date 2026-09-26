@@ -1,0 +1,26 @@
+timestamp,location,event_type,bulletin
+2026-09-24 08:30 AM,"Port of Shanghai, China",Weather - Super Typhoon,Category 4 Typhoon Malakas heading to Shanghai. Expect severe container berth delays of 7 to 10 days.
+2026-09-24 11:15 AM,"Strait of Malacca, Malaysia",Geopolitical - Transit Bottleneck,Naval exercises have created a massive traffic bottleneck. Vessel transit times delayed by 72 hours.
+2026-09-24 02:45 PM,"Port of Los Angeles, USA",Labor - Strike Disruption,Sudden strikes by local crane operators have brought operations to a standstill. Rail lines backed up 5 days.
+2026-09-24 04:00 PM,"Port of Rotterdam, Netherlands",Infrastructure - Grid Failure,A massive regional power outage has knocked out automated container sorting terminals. Logistics halted for 48 hours.
+2026-09-24 06:15 PM,"Panama Canal, Panama",Climate - Drought Restriction,Water level drops have forced authorities to slash daily vessel crossings by 30%. Expect month-long shipping delays.
+2026-09-25 01:00 AM,"Port of Tokyo, Japan",Weather - Seismic Activity,A minor offshore earthquake triggered precautionary port closures. Structural assessments delaying freight by 24 hours.
+2026-09-25 05:30 AM,"Suez Canal, Egypt",Accident - Grounded Vessel,A large container ship drifted off course and blocked the southern channel. Transit stopped for an estimated 4 days.
+2026-09-25 09:00 AM,"Port of Hamburg, Germany",Labor - Contract Dispute,Union workers announced a 24-hour warning strike. Freight handling and rail cargo networks severely impacted.
+2026-09-25 11:45 AM,"Port of Santos, Brazil",Weather - Extreme Flooding,Torrential rains flooded main access roads to the terminal. Truck deliveries are completely blocked for 3 days.
+2026-09-25 03:20 PM,"Port of Singapore, Singapore",Infrastructure - Cyber Attack,Ransomware hit a major port operating system. Manual processing slowing down container clearing times by 400%.
+2026-09-25 07:10 PM,"Port of Busan, South Korea",Weather - Heavy Fog,Zero visibility forced maritime pilots to halt all vessel movements in and out of the harbor for 18 hours.
+2026-09-26 02:00 AM,"Port of Antwerp, Belgium",Regulatory - Customs Lockdown,Biosecurity checks on inbound agricultural cargo tightened. Customs processing times extended by 5 business days.
+2026-09-26 06:45 AM,"Port of Chennai, India",Infrastructure - Pipeline Leak,An oil spill near the primary industrial terminal halted vessel dockings. Cleanup crews estimating a 48-hour delay.
+2026-09-26 10:15 AM,"Port of Felixstowe, UK",Labor - Rail Congestion,A regional rail worker strike left thousands of containers stranded on the docks. Internal UK distribution frozen.
+2026-09-26 01:30 PM,"Port of Houston, USA",Weather - Tropical Storm,Tropical Storm Beta is causing high-velocity wind hazards. Inbound channel closed to large container vessels.
+2026-09-26 05:00 PM,"Port of Colombo, Sri Lanka",Geopolitical - Local Unrest,Civil demonstrations near the port gates are preventing terminal staff access. Limited crane operations running.
+2026-09-26 09:15 PM,"Port of Genoa, Italy",Infrastructure - Bridge Repair,Emergency structural repairs on the main highway leading to the docks have cut truck flow capacity in half.
+2026-09-27 04:00 AM,"Port of Vancouver, Canada",Weather - Mudslides,Heavy mountain mudslides washed out core rail segments connecting the West Coast port to inland distribution centers.
+2026-09-27 08:30 AM,"Port of Kaohsiung, Taiwan",Weather - Industrial Fire,A warehouse fire near the chemical logistics sector forced a temporary freeze on adjacent shipping docks.
+2026-09-27 12:00 PM,"Port of Seattle, USA",Infrastructure - Crane Collision,Two container cranes collided during high winds. Berth 5 closed for repairs for the next two weeks.
+2026-09-27 03:45 PM,"Port of Brisbane, Australia",Weather - Cyclone Warning,Advanced warnings for Cyclone Seth have prompted maritime vessels to clear the bay and head to open waters.
+2026-09-27 07:15 PM,"Port of Veracruz, Mexico",Regulatory - Tariff Audit,A surprise federal audit on industrial component classifications is delaying outbound container approvals by 4 days.
+2026-09-28 01:10 AM,"Port of Cape Town, South Africa",Weather - High Winds,Wind speeds exceeding 50 knots have made it impossible for container cranes to operate safely. Port operations paused.
+2026-09-28 06:00 AM,"Port of Valencia, Spain",Labor - Tugboat Strike,Tugboat crews voted to strike for 36 hours. Large container ships cannot dock or depart without assistance.
+2026-09-28 10:30 AM,"Port of Haiphong, Vietnam",Weather - Seasonal Monsoons,Abnormally high seasonal tides have flooded the industrial park roads, preventing component transport to the terminal.
