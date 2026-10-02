@@ -1,13 +1,16 @@
 # Analyzing Performance of RBF SVM and AdaBoost Machine Learning Models on Varied Linear-Dependency of Features
 
+## Tech Stack
+* **Programming Languages and Software**: Python, Google Collab, Overleaf
+
 ## Project Overview
 Early and accurate breast cancer diagnosis significantly improves patient outcomes, and machine learning models used for this task must handle collinearity between diagnostic features reliably. This project trains a decision tree classifier (baseline), an AdaBoost ensemble, and a Radial Basis Function (RBF) Support Vector Machine on the Breast Cancer Wisconsin (Diagnostic) dataset, comparing performance on the original feature set against a version with collinear features removed. SHAP is then used to explain AdaBoost and RBF SVM predictions on both feature sets, evaluating which model relies on the most relevant features under varying collinearity. 
+
+The F1 score was used to determine the best performing since this project is in the domain of healthcare. A high F1-Score means that the model had both high precision and recall, meaning the predicted positives were correct the majority of the time and it was able to detect the highest amount of positives.
 
 ## Collinearity Between Dataset Features
 ![Collinearity Between Dataset Features](correlation.png) 
 
-## Tech Stack
-* **Programming Languages and Software**: Python, Google Collab, Overleaf
 
 ## Conclusion
 Overall, the best performing model was the RBF SVM model on the original dataset. The worst performing model with the lowest f1-score for the malignant class was the
