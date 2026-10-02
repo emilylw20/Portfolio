@@ -4,7 +4,7 @@
 Early and accurate breast cancer diagnosis significantly improves patient outcomes, and machine learning models used for this task must handle collinearity between diagnostic features reliably. This project trains a decision tree classifier (baseline), an AdaBoost ensemble, and a Radial Basis Function (RBF) Support Vector Machine on the Breast Cancer Wisconsin (Diagnostic) dataset, comparing performance on the original feature set against a version with collinear features removed. SHAP is then used to explain AdaBoost and RBF SVM predictions on both feature sets, evaluating which model relies on the most relevant features under varying collinearity. 
 
 ## Collinearity Between Dataset Features
-![Collinearity Between Dataset Features](collinearity.png) 
+![Collinearity Between Dataset Features](correlation.png) 
 
 ## Tech Stack
 * **Programming Languages and Software**: Python, Google Collab, Overleaf
