@@ -1,15 +1,14 @@
-# Commercial Auto Telematics Churn & Price Sensitivity Calculator
+# Analyzing Performance of RBF SVM and AdaBoost Machine Learning Models on Varied Linear-Dependency of Features
 
 ## Project Overview
-This project provides an automated, end-to-end data pipeline designed to analyze commercial auto insurance policyholder retention and evaluate price elasticity. The core engine processes operational data to identify the exact threshold where premium price hikes trigger client churn, helping underwriters optimize pricing structures without sacrificing customer loyalty.
+Early and accurate breast cancer diagnosis significantly improves patient outcomes, and machine learning models used for this task must handle collinearity between diagnostic features reliably. This project trains a decision tree classifier (baseline), an AdaBoost ensemble, and a Radial Basis Function (RBF) Support Vector Machine on the Breast Cancer Wisconsin (Diagnostic) dataset, comparing performance on the original feature set against a version with collinear features removed. SHAP is then used to explain AdaBoost and RBF SVM predictions on both feature sets, evaluating which model relies on the most relevant features under varying collinearity. 
 
-## Interactive Analytics Dashboard
-![Commercial Auto Analytics Dashboard Panel](dashboard.png) 
+## Collinearity Between Dataset Features
+![Collinearity Between Dataset Features](collinearity.png) 
 
-## Features & Tech Stack
-* **Automated Staging Layer (Excel VBA)**: Utilizes memory-efficient dynamic arrays to scrub and process transaction records, completely isolating successful renewals without corrupting original source tables.
-* **Actuarial Modeling (VBA Logic)**: Dynamically computes the portfolio's **Optimal Average Premium Rate Increase Ceiling (5.48%)**, mapping out the boundary lines of customer sensitivity.
-* **Business Intelligence Frontend (Power BI)**: Delivers interactive dashboards capturing distinct policyholder metrics, including executive KPI cards, 100% stacked telematics performance metrics, and a clean scatter plot displaying pricing hazard zones.
+## Tech Stack
+* **Programming Languages and Software**: Python, Google Collab, Overleaf
 
-## Business Key Takeaway
-The data engine proves a strict pricing boundary across personal and commercial automobile profiles. Rate adjustments kept below the **5.48% optimal premium threshold** yield excellent client retention. However, adjustments exceeding this ceiling heavily accelerate risk exposure and customer churn, particularly for clients not participating in the telematics initiative.
+## Conclusion
+Overall, the best performing model was the RBF SVM model on the original dataset. The worst performing model with the lowest f1-score for the malignant class was the
+decision tree trained on features with the correlation weight greater than 0.97 were removed. This seems to imply that the intrinsic structure of the RBF SVM allows for multicollinearity to exist without a sacrifice to model performance.
