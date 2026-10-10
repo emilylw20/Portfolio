@@ -1,15 +1,15 @@
-# Commercial Auto Telematics Churn & Price Sensitivity Calculator
+## Event-Driven Omni-Channel Fulfillment & Order Routing Architecture
+
 
 ## Project Overview
-This project provides an automated, end-to-end data pipeline designed to analyze commercial auto insurance policyholder retention and evaluate price elasticity. The core engine processes operational data to identify the exact threshold where premium price hikes trigger client churn, helping underwriters optimize pricing structures without sacrificing customer loyalty.
+An enterprise-grade, event-driven **Distributed Order Management (DOM)** system built in Python, featuring geospatial store routing and the **Transactional Outbox Pattern** to ensure absolute data consistency and fault-tolerant state synchronization.
 
 ## Interactive Analytics Dashboard
-![Commercial Auto Analytics Dashboard Panel](dashboard.png) 
+![Omni-Channel Supply Chain Process](process.jpg) 
 
 ## Features & Tech Stack
-* **Automated Staging Layer (Excel VBA)**: Utilizes memory-efficient dynamic arrays to scrub and process transaction records, completely isolating successful renewals without corrupting original source tables.
-* **Actuarial Modeling (VBA Logic)**: Dynamically computes the portfolio's **Optimal Average Premium Rate Increase Ceiling (5.48%)**, mapping out the boundary lines of customer sensitivity.
-* **Business Intelligence Frontend (Power BI)**: Delivers interactive dashboards capturing distinct policyholder metrics, including executive KPI cards, 100% stacked telematics performance metrics, and a clean scatter plot displaying pricing hazard zones.
+* **Geospatial Store Routing:** Leverages object-oriented Python and Euclidean distance calculations to dynamically route customer orders to the nearest fully-stocked fulfillment location.
+* **Transactional Outbox Pattern:** Ensures atomic writes between local state changes and event queuing, eliminating lost messages and ensuring guaranteed at-least-once delivery.
+* **Decoupled Event Processing:** Separates order intake and routing logic from inventory state synchronization using a persistent event log table (`event_outbox`).
+* **High-Integrity State Management:** Atomic database transactions prevent inventory race conditions across multi-node retail networks.
 
-## Business Key Takeaway
-The data engine proves a strict pricing boundary across personal and commercial automobile profiles. Rate adjustments kept below the **5.48% optimal premium threshold** yield excellent client retention. However, adjustments exceeding this ceiling heavily accelerate risk exposure and customer churn, particularly for clients not participating in the telematics initiative.
